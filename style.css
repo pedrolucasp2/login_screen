@@ -1,23 +1,65 @@
-
- * {
-    font-size:18px;
-    margin: 0;
+* {
+  font-size: 18px;
+  margin: 0;
   padding: 0;
 }
 
 video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;       
-  }
-
-button{
-  width: ;
-  background-color: ;
-  border: none;
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
+
+.container {
+  
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.registre_container {
+  background-color: hsla(0,0%,100%,.7);
+  height: 100%;
+  width: 550px;
+  margin-right: 16.7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.registre-se {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  font-size: 40px;
+}
+ input {
+  margin:  10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 380px;
+  height: 25px;
+  padding: 5px;
+}
+button{
+  margin:  10px;
+  background-color: hsla(204, 100%, 67%, 0.7);
+  width: 10.0rem;
+  height: 3.0rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  font-weight: 300;
